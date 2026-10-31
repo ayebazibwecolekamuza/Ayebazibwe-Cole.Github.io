@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Realistic Blog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<div class="logo">📝 Realistic Blog</div>
+<div class="links">
+<a href="index.html">Home</a>
+<a href="blog.html">Posts</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+<div class="hero">
+<div>
+<h1>Welcome to My Realistic Blog</h1>
+<p>I'm Cole from Bunamwaya, Kampala. S3 PEM/ICT. I post about ICT, football and life.</p>
+<a href="blog.html" class="btn">View All Posts</a>
+</div>
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400">
+</div>
+<h2 class="section-title">Latest Posts</h2>
+<div id="posts" class="posts"></div>
+<div id="about" class="card">
+<h2>About Me</h2>
+<p>Hi, I'm Cole, S3 student passionate about ICT. This blog is built with GitHub Pages.</p>
+</div>
+<div id="contact" class="card">
+<h2>Contact</h2>
+<p>WhatsApp: +256 7XX XXX XXX</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
